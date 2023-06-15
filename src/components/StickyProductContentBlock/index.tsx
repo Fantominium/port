@@ -5,10 +5,10 @@ type Props = {}
 
 const StickyProductContentBlock = (props: Props) => {
   return (
-    <div className="relative isolate overflow-hidden bg-white opacity-75 px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+    <div className="relative isolate overflow-hidden bg-base-100/60 px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
     <div className="absolute inset-0 -z-10 overflow-hidden">
       <svg
-        className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
+        className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2[mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
         aria-hidden="true"
       >
         <defs>
@@ -37,8 +37,8 @@ const StickyProductContentBlock = (props: Props) => {
         <div className="lg:pr-4">
           <div className="lg:max-w-lg">
             <p className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</p>
-            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better workflow</h1>
-            <p className="mt-6 text-xl leading-8 text-gray-700">
+            <h1 className="mt-2 text-3xl font-bold tracking-tight text-primary sm:text-4xl">A better workflow</h1>
+            <p className="mt-6 text-xl leading-8 text-accent">
               Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam
               eget aliquam. Quisque id at vitae feugiat egestas.
             </p>
