@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 
 type Props = {
-}
+    children?: ReactNode
+    title?: string
+  }
 
-const ContentBlock = (props: Props) => {
+const ContentBlock = ({ children }: Props) => {
   return (
-    <div className='md:container md:mx-auto h-screen px-1.5'>Content</div>
+    <div className='md:container md:mx-auto h-screen px-1.5'>{children}</div>
   )
 }
 
