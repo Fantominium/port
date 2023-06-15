@@ -5,7 +5,7 @@ type Props = {
 
 const ContentBlock = (props: Props) => {
   return (
-    <div className='md:container md:mx-auto px-5'>Content</div>
+    <div className='md:container md:mx-auto h-screen px-1.5'>Content</div>
   )
 }
 
